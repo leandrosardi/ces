@@ -10,3 +10,15 @@ This extension defines:
 2. the dependencies of this extension (mainly: [Content](https://github.com/leandrosardi/content)).
 
 3. the screens (except the ones created with [Content](https://github.com/leandrosardi/content)).
+
+## Getting Started
+
+Just add the extension into the `config.rb` file of your [MySaaS](https://github.com/leandrosardi/mysaas) project.
+
+```ruby
+BlackStack::Extensions.append :ces
+```
+
+## Disclaimer
+
+The logo has been taken from [here](https://www.shareicon.net/chat-education-class-tutorial-speech-bubble-teacher-teaching-707418).
