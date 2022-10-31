@@ -16,11 +16,11 @@ BlackStack::Extensions::add ({
     # what is the section to add this extension in either the top-bar, the footer, the dashboard.
     :services_section => 'Education',
     # show this extension as a service in the top bar?
-    :show_in_top_bar => true,
+    :show_in_top_bar => false,
     # show this extension as a service in the footer?
-    :show_in_footer => true,
+    :show_in_footer => false,
     # show this extension as a service in the dashboard?
-    :show_in_dashboard => true,
+    :show_in_dashboard => false,
 
     :dependencies => [
         { :extension => :content, :version => '0.0.1' },
